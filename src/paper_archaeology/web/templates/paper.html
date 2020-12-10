@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}{{ work.canonical_title }} - Paper Archaeology{% endblock %}
+
+{% block content %}
+<article>
+    <header>
+        <h2>{{ work.canonical_title }}</h2>
+        <p><strong>Authors:</strong> 
+            {% for author in work.authors %}
+                {{ author.person.canonical_name }}{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+        <p>
+            <strong>Year:</strong> {{ work.year }} | 
+            <strong>Original Language:</strong> {{ work.original_language }}
+        </p>
+    </header>
+
+    <section>
+        <h3>Timeline & Editions</h3>
+        <div class="timeline">
+            {% for expr in work.expressions %}
+                {% for pub in expr.publications %}
+                <div class="timeline-event">
+                    <strong>{{ pub.year }}</strong> - 
+                    {% if expr.is_translation %}
+                        Translation ({{ expr.language }})
+                    {% elif pub.is_reprint %}
+                        Reprint
+                    {% else %}
+                        Original Publication
+                    {% endif %}
+                    <br>
+                    <small>
+                        {{ pub.venue }} 
+                        {% if pub.doi %}| DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>{% endif %}
+                    </small>
+                </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </section>
+
+</article>
+{% endblock %}

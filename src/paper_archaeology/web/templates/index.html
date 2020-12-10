@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section>
+    <h2>Archive</h2>
+    <p>Tracing the lives of scientific papers across editions, languages, citations and time.</p>
+    
+    <table role="grid">
+        <thead>
+            <tr>
+                <th scope="col">Year</th>
+                <th scope="col">Title</th>
+                <th scope="col">Language</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for work in works %}
+            <tr>
+                <td>{{ work.year }}</td>
+                <td><a href="/paper/{{ work.id }}">{{ work.canonical_title }}</a></td>
+                <td>{{ work.original_language }}</td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="3">No papers found in the local archive.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+{% endblock %}
