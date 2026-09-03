@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Paper Archaeology"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - given-names: Loren
+    family-names: Hey
+repository-code: "https://github.com/lorenhey/paper-archaeology"
+abstract: >-
+  Tracing the lives of scientific papers across editions, languages, citations and time.
+license: MIT
