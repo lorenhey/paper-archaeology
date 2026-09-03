@@ -124,7 +124,7 @@ def path(source_id: int, target_id: int):
     for step_idx, node_id in enumerate(path):
         work = session.query(Work).filter(Work.id == node_id).first()
         if step_idx < len(path) - 1:
-            console.print(f" [{node_id}] {work.canonical_title} ({work.year})\n   ↓ cites")
+            console.print(f" [{node_id}] {work.canonical_title} ({work.year})\n   -> cites")
         else:
             console.print(f" [{node_id}] {work.canonical_title} ({work.year})")
 
