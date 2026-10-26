@@ -1,0 +1,1844 @@
+window.ARCHAEOLOGY_CORPUS = {
+  "version": "2.0.0",
+  "total_works": 34,
+  "total_relationships": 25,
+  "works": [
+    {
+      "id": 5,
+      "title": "Versuche über Pflanzen-Hybriden",
+      "year": 1866,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 6,
+          "name": "Gregor Mendel",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 5,
+          "language": "de",
+          "title": "Versuche über Pflanzen-Hybriden",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 5,
+              "venue": null,
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1866,
+              "doi": "10.5962/bhl.title.61004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Kinetische Theorie des Wärmegleichgewichtes und des zweiten Hauptsatzes der Thermodynamik",
+      "year": 1902,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 3,
+          "name": "A. Einstein",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 33,
+          "language": "de",
+          "title": "Kinetische Theorie des Wärmegleichgewichtes und des zweiten Hauptsatzes der Thermodynamik",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 33,
+              "venue": "Annalen der Physik",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1902,
+              "doi": "10.1002/andp.19023141007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Elementary principles in statistical mechanics",
+      "year": 1903,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 34,
+          "name": "Meyer",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 29,
+          "language": "de",
+          "title": "Elementary principles in statistical mechanics",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 29,
+              "venue": "Monatshefte für Mathematik",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1903,
+              "doi": "10.1007/bf01707005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Eine Theorie der Grundlagen der Thermodynamik",
+      "year": 1903,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 3,
+          "name": "A. Einstein",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 34,
+          "language": "de",
+          "title": "Eine Theorie der Grundlagen der Thermodynamik",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 34,
+              "venue": "Annalen der Physik",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1903,
+              "doi": "10.1002/andp.19033160510"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Zur Elektrodynamik bewegter Körper",
+      "year": 1905,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 3,
+          "name": "A. Einstein",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 3,
+          "language": "de",
+          "title": "Zur Elektrodynamik bewegter Körper",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 3,
+              "venue": "Annalen der Physik",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1905,
+              "doi": "10.1002/andp.19053221004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen",
+      "year": 1905,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 3,
+          "name": "A. Einstein",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 10,
+          "language": "de",
+          "title": "Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 10,
+              "venue": "Annalen der Physik",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1905,
+              "doi": "10.1002/andp.19053220806"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Mathematical Theory of Relativity",
+      "year": 1923,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 24,
+          "name": "A. S. Eddinǵton",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 17,
+          "language": "en",
+          "title": "Mathematical Theory of Relativity",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 17,
+              "venue": null,
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1923,
+              "doi": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "The Curvature of de Sitter's Space-Time derived from Globular Clusters",
+      "year": 1924,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 25,
+          "name": "L. Silberstein",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 18,
+          "language": "en",
+          "title": "The Curvature of de Sitter's Space-Time derived from Globular Clusters",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 18,
+              "venue": "Monthly Notices of the Royal Astronomical Society",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1924,
+              "doi": "10.1093/mnras/84.5.363"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Theory of Statistical Estimation",
+      "year": 1925,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 38,
+          "name": "Ronald Aylmer Fisher",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 32,
+          "language": "en",
+          "title": "Theory of Statistical Estimation",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 32,
+              "venue": "Mathematical Proceedings of the Cambridge Philosophical Society",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1925,
+              "doi": "10.1017/s0305004100009580"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "ON THE POSSIBLE LINE ELEMENTS FOR THE UNIVERSE",
+      "year": 1929,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 26,
+          "name": "Richard C. Tolman",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 20,
+          "language": "en",
+          "title": "ON THE POSSIBLE LINE ELEMENTS FOR THE UNIVERSE",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 20,
+              "venue": "Proceedings of the National Academy of Sciences",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1929,
+              "doi": "10.1073/pnas.15.4.297"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "A relation between distance and radial velocity among extra-galactic nebulae",
+      "year": 1929,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 27,
+          "name": "Edwin Hubble",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 21,
+          "language": "en",
+          "title": "A relation between distance and radial velocity among extra-galactic nebulae",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 21,
+              "venue": "Proceedings of the National Academy of Sciences",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1929,
+              "doi": "10.1073/pnas.15.3.168"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "On the Instability of Einstein's Spherical World",
+      "year": 1930,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 24,
+          "name": "A. S. Eddinǵton",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 19,
+          "language": "en",
+          "title": "On the Instability of Einstein's Spherical World",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 19,
+              "venue": "Monthly Notices of the Royal Astronomical Society",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1930,
+              "doi": "10.1093/mnras/90.7.668"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "A Homogeneous Universe of Constant Mass and Increasing Radius accounting for the Radial Velocity of Extra-galactic Nebulae",
+      "year": 1931,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 7,
+          "name": "A. G. Lematre",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 6,
+          "language": "en",
+          "title": "A Homogeneous Universe of Constant Mass and Increasing Radius accounting for the Radial Velocity of Extra-galactic Nebulae",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 6,
+              "venue": "Monthly Notices of the Royal Astronomical Society",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1931,
+              "doi": "10.1093/mnras/91.5.483"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Relativity, Thermodynamics and Cosmology",
+      "year": 1935,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 28,
+          "name": "Herbert Dingle",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 23,
+          "language": "en",
+          "title": "Relativity, Thermodynamics and Cosmology",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 23,
+              "venue": "Nature",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1935,
+              "doi": "10.1038/135935a0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "An Unsolvable Problem of Elementary Number Theory",
+      "year": 1936,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 12,
+          "name": "Alonzo Church",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 11,
+          "language": "en",
+          "title": "An Unsolvable Problem of Elementary Number Theory",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 11,
+              "venue": "American Journal of Mathematics",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1936,
+              "doi": "10.2307/2371045"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "General recursive functions of natural numbers",
+      "year": 1936,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 30,
+          "name": "S. C. Kleene",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 26,
+          "language": "en",
+          "title": "General recursive functions of natural numbers",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 26,
+              "venue": "Mathematische Annalen",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1936,
+              "doi": "10.1007/bf01565439"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+      "year": 1937,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 2,
+          "name": "Alan Turing",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 2,
+          "language": "en",
+          "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 2,
+              "venue": "Proceedings of the London Mathematical Society",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1937,
+              "doi": "10.1112/plms/s2-42.1.230"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Expanding Universe and the Origin of Elements",
+      "year": 1946,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 10,
+          "name": "George Gamow",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 22,
+          "language": "en",
+          "title": "Expanding Universe and the Origin of Elements",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 22,
+              "venue": "Physical Review",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1946,
+              "doi": "10.1103/physrev.70.572.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "A History of Western Philosophy.",
+      "year": 1946,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 31,
+          "name": "G. Watts Cunningham",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 32,
+          "name": "Bertrand Russell",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 27,
+          "language": "en",
+          "title": "A History of Western Philosophy.",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 27,
+              "venue": "The Philosophical Review",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1946,
+              "doi": "10.2307/2181652"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "A Mathematical Theory of Communication",
+      "year": 1948,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 1,
+          "name": "Claude E. Shannon",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 1,
+          "language": "en",
+          "title": "A Mathematical Theory of Communication",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 1,
+              "venue": "Bell System Technical Journal",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1948,
+              "doi": "10.1002/j.1538-7305.1948.tb01338.x"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Origin of Chemical Elements",
+      "year": 1948,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 8,
+          "name": "Ralph A. Alpher",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 9,
+          "name": "H. A. Bethe",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 10,
+          "name": "George Gamow",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 7,
+          "language": "en",
+          "title": "The Origin of Chemical Elements",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 7,
+              "venue": "Physical Review",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1948,
+              "doi": "10.1103/physrev.73.803"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "The Mind of Mechanical Man",
+      "year": 1949,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 29,
+          "name": "Gail Jefferson",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 25,
+          "language": "en",
+          "title": "The Mind of Mechanical Man",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 25,
+              "venue": "BMJ",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1949,
+              "doi": "10.1136/bmj.1.4616.1105"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "I.—COMPUTING MACHINERY AND INTELLIGENCE",
+      "year": 1950,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 2,
+          "name": "Alan Turing",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 8,
+          "language": "en",
+          "title": "I.—COMPUTING MACHINERY AND INTELLIGENCE",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 8,
+              "venue": "Mind",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1950,
+              "doi": "10.1093/mind/lix.236.433"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Calculating Instruments and Machines",
+      "year": 1951,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [],
+      "expressions": [
+        {
+          "id": 24,
+          "language": "en",
+          "title": "Calculating Instruments and Machines",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 24,
+              "venue": "Students Quarterly Journal",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1951,
+              "doi": "10.1049/sqj.1951.0031"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "On the Structure of Nucleic Acids.",
+      "year": 1952,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 13,
+          "name": "Sven Furberg",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 14,
+          "name": "Mogens Ballund Jensen",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 15,
+          "name": "Carl Faurholt",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 12,
+          "language": "en",
+          "title": "On the Structure of Nucleic Acids.",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 12,
+              "venue": "Acta chemica Scandinavica/Acta chemica Scandinavica. B, Organic chemistry and biochemistry/Acta chemica Scandinavica. A, Physical and inorganic chemistry/Acta chemica Scandinavica. Series B. Organic chemistry and biochemistry/Acta chemica Scandinavica. Series A, Physical and inorganic chemistry",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1952,
+              "doi": "10.3891/acta.chem.scand.06-0634"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "On the desoxypentose nucleic acids from several microorganisms",
+      "year": 1952,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 20,
+          "name": "Stephen Zamenhof",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 21,
+          "name": "George Brawerman",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 22,
+          "name": "Erwin Chargaff",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 15,
+          "language": "en",
+          "title": "On the desoxypentose nucleic acids from several microorganisms",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 15,
+              "venue": "Biochimica et Biophysica Acta",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1952,
+              "doi": "10.1016/0006-3002(52)90184-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "THE NUCLEIC ACIDS OF SOME INSECT VIRUSES",
+      "year": 1952,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 23,
+          "name": "G.R. Wyatt",
+          "wikidata_id": null,
+          "orcid": "https://orcid.org/0009-0006-0778-6159",
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 16,
+          "language": "en",
+          "title": "THE NUCLEIC ACIDS OF SOME INSECT VIRUSES",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 16,
+              "venue": "The Journal of General Physiology",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1952,
+              "doi": "10.1085/jgp.36.2.201"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+      "year": 1953,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 4,
+          "name": "James Dewey Watson",
+          "wikidata_id": null,
+          "orcid": "https://orcid.org/0009-0009-1659-3238",
+          "viaf": null
+        },
+        {
+          "id": 5,
+          "name": "Francis Crick",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 4,
+          "language": "en",
+          "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 4,
+              "venue": "Nature",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1953,
+              "doi": "10.1038/171737a0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Crystallinity in sperm heads: Molecular structure of nucleoprotein in vivo",
+      "year": 1953,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 16,
+          "name": "M. H. F. Wilkins",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 17,
+          "name": "J. T. Randall",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 13,
+          "language": "en",
+          "title": "Crystallinity in sperm heads: Molecular structure of nucleoprotein in vivo",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 13,
+              "venue": "Biochimica et Biophysica Acta",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1953,
+              "doi": "10.1016/0006-3002(53)90232-7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Structure of the Nucleic Acids",
+      "year": 1953,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 18,
+          "name": "Linus Pauling",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 19,
+          "name": "Robert B. Corey",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 14,
+          "language": "en",
+          "title": "Structure of the Nucleic Acids",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 14,
+              "venue": "Nature",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1953,
+              "doi": "10.1038/171346a0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Foundations of Statistical Mechanics",
+      "year": 1955,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 37,
+          "name": "D. ter Haar",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 31,
+          "language": "en",
+          "title": "Foundations of Statistical Mechanics",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 31,
+              "venue": "Reviews of Modern Physics",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1955,
+              "doi": "10.1103/revmodphys.27.289"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Extension of the Condensation Theory of Yang and Lee to the Pressure Ensemble",
+      "year": 1956,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 35,
+          "name": "M. B. Lewis",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        },
+        {
+          "id": 36,
+          "name": "A. J. F. Siegert",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 30,
+          "language": "en",
+          "title": "Extension of the Condensation Theory of Yang and Lee to the Pressure Ensemble",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 30,
+              "venue": "Physical Review",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1956,
+              "doi": "10.1103/physrev.101.1227"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Information Theory and Statistical Mechanics",
+      "year": 1957,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 11,
+          "name": "E. T. Jaynes",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 9,
+          "language": "en",
+          "title": "Information Theory and Statistical Mechanics",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 9,
+              "venue": "Physical Review",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 1957,
+              "doi": "10.1103/physrev.106.620"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+      "year": 2006,
+      "original_language": null,
+      "work_type": "PAPER",
+      "subject": null,
+      "authors": [
+        {
+          "id": 33,
+          "name": "Kurt Gödel",
+          "wikidata_id": null,
+          "orcid": null,
+          "viaf": null
+        }
+      ],
+      "expressions": [
+        {
+          "id": 28,
+          "language": "de",
+          "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+          "is_translation": false,
+          "publications": [
+            {
+              "id": 28,
+              "venue": "Monatshefte für Mathematik",
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "publisher": null,
+              "place": null,
+              "year": 2006,
+              "doi": "10.1007/s00605-006-0423-7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": 1,
+      "source": 2,
+      "target": 11,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 2,
+      "source": 4,
+      "target": 12,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 3,
+      "source": 4,
+      "target": 13,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 14,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 5,
+      "source": 4,
+      "target": 15,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 6,
+      "source": 4,
+      "target": 16,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 7,
+      "source": 6,
+      "target": 17,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 8,
+      "source": 6,
+      "target": 18,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 9,
+      "source": 6,
+      "target": 19,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 10,
+      "source": 6,
+      "target": 20,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 11,
+      "source": 6,
+      "target": 21,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 12,
+      "source": 7,
+      "target": 22,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 13,
+      "source": 7,
+      "target": 23,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 14,
+      "source": 8,
+      "target": 24,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 15,
+      "source": 8,
+      "target": 25,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 16,
+      "source": 8,
+      "target": 26,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 17,
+      "source": 8,
+      "target": 27,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 18,
+      "source": 8,
+      "target": 28,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 19,
+      "source": 9,
+      "target": 29,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 20,
+      "source": 9,
+      "target": 30,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 21,
+      "source": 9,
+      "target": 1,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 22,
+      "source": 9,
+      "target": 31,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 23,
+      "source": 9,
+      "target": 32,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 24,
+      "source": 10,
+      "target": 33,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    },
+    {
+      "id": 25,
+      "source": 10,
+      "target": 34,
+      "type": "CITES",
+      "confidence": 1.0,
+      "evidence": "OpenAlex referenced_works"
+    }
+  ],
+  "evidence": [
+    {
+      "id": 1,
+      "entity_type": "Work",
+      "entity_id": 1,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 2,
+      "entity_type": "Work",
+      "entity_id": 2,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 3,
+      "entity_type": "Work",
+      "entity_id": 3,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 4,
+      "entity_type": "Work",
+      "entity_id": 4,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 5,
+      "entity_type": "Work",
+      "entity_id": 5,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 6,
+      "entity_type": "Work",
+      "entity_id": 6,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 7,
+      "entity_type": "Work",
+      "entity_id": 7,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 8,
+      "entity_type": "Work",
+      "entity_id": 8,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 9,
+      "entity_type": "Work",
+      "entity_id": 9,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 10,
+      "entity_type": "Work",
+      "entity_id": 10,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 11,
+      "entity_type": "Work",
+      "entity_id": 11,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 12,
+      "entity_type": "Work",
+      "entity_id": 12,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 13,
+      "entity_type": "Work",
+      "entity_id": 13,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 14,
+      "entity_type": "Work",
+      "entity_id": 14,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 15,
+      "entity_type": "Work",
+      "entity_id": 15,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 16,
+      "entity_type": "Work",
+      "entity_id": 16,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 17,
+      "entity_type": "Work",
+      "entity_id": 17,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 18,
+      "entity_type": "Work",
+      "entity_id": 18,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 19,
+      "entity_type": "Work",
+      "entity_id": 19,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 20,
+      "entity_type": "Work",
+      "entity_id": 20,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 21,
+      "entity_type": "Work",
+      "entity_id": 21,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 22,
+      "entity_type": "Work",
+      "entity_id": 22,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 23,
+      "entity_type": "Work",
+      "entity_id": 23,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 24,
+      "entity_type": "Work",
+      "entity_id": 24,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 25,
+      "entity_type": "Work",
+      "entity_id": 25,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 26,
+      "entity_type": "Work",
+      "entity_id": 26,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 27,
+      "entity_type": "Work",
+      "entity_id": 27,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 28,
+      "entity_type": "Work",
+      "entity_id": 28,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 29,
+      "entity_type": "Work",
+      "entity_id": 29,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 30,
+      "entity_type": "Work",
+      "entity_id": 30,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 31,
+      "entity_type": "Work",
+      "entity_id": 31,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 32,
+      "entity_type": "Work",
+      "entity_id": 32,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 33,
+      "entity_type": "Work",
+      "entity_id": 33,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    },
+    {
+      "id": 34,
+      "entity_type": "Work",
+      "entity_id": 34,
+      "source": "OpenAlex",
+      "confidence": 0.9,
+      "notes": null
+    }
+  ]
+};

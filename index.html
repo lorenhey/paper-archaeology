@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAPER ARCHAEOLOGY — Arqueología de Artículos Científicos &amp; Genealogía Intelectual</title>
+  <meta name="description" content="Instrumento para reconstruir la trayectoria histórica de artículos científicos a través de ediciones, lenguas, citas y tiempo.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧬</text></svg>">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-wrapper">
+        <div class="brand-sigil">PA</div>
+        <div class="brand-titles">
+          <h1>PAPER ARCHAEOLOGY <span class="brand-version">v2.0.0</span></h1>
+          <p class="brand-subtitle">Tracing the lives of scientific papers across editions, languages, citations and time</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="export-corpus-btn" class="btn btn-sm" title="Exportar catálogo completo a formato JSON">
+          📦 Exportar Corpus JSON
+        </button>
+        <a href="https://github.com/lorenhey/paper-archaeology" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+          GitHub Repo
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner Epistémico -->
+  <aside class="doctrine-banner">
+    <div class="doctrine-inner">
+      <div>
+        <span class="doctrine-icon">⏳</span>
+        <strong>Axioma Bibliográfico:</strong>
+        <em>«Un artículo científico tiene una fecha de publicación. Su historia, generalmente, no.»</em>
+        Modelado canónico <span class="doctrine-rule">FRBR: Work ➔ Expression ➔ Publication</span> para evitar colapsar la historia en un mero conteo plano de citas.
+      </div>
+    </div>
+  </aside>
+
+  <!-- Layout Principal -->
+  <main class="main-layout">
+
+    <!-- Métricas Globales de la Red -->
+    <section class="metrics-grid">
+      <div class="metric-card accent-amber">
+        <div class="metric-header">
+          <span>Obras Catalogadas</span>
+          <span>📜</span>
+        </div>
+        <div class="metric-val" id="metric-total-works">34</div>
+        <div class="metric-sub">Trabajos científicos seminales</div>
+      </div>
+
+      <div class="metric-card accent-cyan">
+        <div class="metric-header">
+          <span>Vínculos Intelectuales</span>
+          <span>🔗</span>
+        </div>
+        <div class="metric-val" id="metric-total-links">25</div>
+        <div class="metric-sub">Relaciones de citación y extensión</div>
+      </div>
+
+      <div class="metric-card accent-emerald">
+        <div class="metric-header">
+          <span>Obras Raíz Fundacionales</span>
+          <span>🌱</span>
+        </div>
+        <div class="metric-val" id="metric-root-works">12</div>
+        <div class="metric-sub">Puntos de partida epistemológicos</div>
+      </div>
+
+      <div class="metric-card accent-violet">
+        <div class="metric-header">
+          <span>Intervalo Cronológico</span>
+          <span>⏱️</span>
+        </div>
+        <div class="metric-val" id="metric-year-span">1866 - 1953</div>
+        <div class="metric-sub">De Mendel a Watson &amp; Crick</div>
+      </div>
+    </section>
+
+    <!-- Espacio de Trabajo Dividido -->
+    <div class="workspace-split">
+
+      <!-- Panel Izquierdo: Catálogo y Explorador -->
+      <section class="panel">
+        <div class="panel-header">
+          <h2 class="panel-title">
+            <span>📚 Catálogo de Trabajos Históricos</span>
+          </h2>
+          <span class="badge badge-cyan" id="filtered-count-badge">34 / 34</span>
+        </div>
+
+        <div class="panel-body">
+          <!-- Filtros -->
+          <div class="filter-bar">
+            <div class="search-box">
+              <input type="text" id="search-input" class="search-input" placeholder="Buscar por título, autor (ej. Turing, Einstein, Shannon)..." autocomplete="off">
+            </div>
+
+            <div class="filter-row">
+              <div style="display: flex; align-items: center; gap: 0.3rem;">
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Desde:</span>
+                <input type="number" id="filter-year-from" class="filter-select" style="width: 80px;" placeholder="1860">
+              </div>
+
+              <div style="display: flex; align-items: center; gap: 0.3rem;">
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Hasta:</span>
+                <input type="number" id="filter-year-to" class="filter-select" style="width: 80px;" placeholder="1960">
+              </div>
+
+              <select id="filter-work-type" class="filter-select">
+                <option value="ALL">Tipos: Todos</option>
+                <option value="paper">Paper / Artículo</option>
+                <option value="book">Libro</option>
+                <option value="proceedings">Actas / Proceedings</option>
+              </select>
+
+              <button id="reset-filters-btn" class="btn btn-sm" title="Restablecer filtros">
+                ↺ Limpiar
+              </button>
+            </div>
+          </div>
+
+          <!-- Tabla de Artículos -->
+          <div class="table-container">
+            <table class="corpus-table">
+              <thead>
+                <tr>
+                  <th>Título Canónico</th>
+                  <th>Autor(es)</th>
+                  <th>Año</th>
+                  <th>Vínculos</th>
+                </tr>
+              </thead>
+              <tbody id="corpus-table-body">
+                <!-- Inyectado por JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Panel Derecho: Inspector Arqueológico & Genealogía -->
+      <section class="panel">
+        <div class="panel-header">
+          <h2 class="panel-title">
+            <span>🔬 Inspector Arqueológico &amp; Genealogía</span>
+          </h2>
+          <div style="display: flex; gap: 0.5rem;">
+            <button id="copy-dossier-btn" class="btn btn-sm btn-emerald" title="Copiar dossier en Markdown">
+              📋 Copiar
+            </button>
+            <button id="download-dossier-btn" class="btn btn-sm btn-primary" title="Descargar informe editorial .md">
+              💾 Guardar .md
+            </button>
+          </div>
+        </div>
+
+        <div class="panel-body">
+          <div id="inspector-empty-state" style="display: none; padding: 3rem; text-align: center; color: var(--text-muted);">
+            Seleccioná un trabajo del listado para explorar su genealogía intelectual.
+          </div>
+
+          <div id="inspector-content" style="display: flex; flex-direction: column; gap: 1rem;">
+            <!-- Cabecera de la Obra -->
+            <div class="inspector-header-box">
+              <h3 class="work-detail-title" id="work-detail-title">Molecular Structure of Nucleic Acids</h3>
+              <div class="work-detail-meta">
+                <span id="work-detail-authors" style="font-weight: 600; color: #fff;">J. D. Watson, F. H. C. Crick</span>
+                <span>•</span>
+                <span id="work-detail-year">1953 d.C.</span>
+                <span>•</span>
+                <span id="work-detail-subject">Genética / Biofísica</span>
+                <span class="badge badge-amber" id="work-detail-type-badge">PAPER</span>
+              </div>
+            </div>
+
+            <!-- Herramienta de Enrutamiento Intelectual (Pathfinding) -->
+            <div class="pathfinder-box">
+              <div class="pathfinder-header">
+                <span>🧭 Enrutador Intelectual (Shortest Citation Path)</span>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Traza el puente de citaciones</span>
+              </div>
+              <div class="pathfinder-controls">
+                <select id="pathfinder-target-select" class="filter-select" style="flex: 1;">
+                  <!-- Inyectado por JS -->
+                </select>
+                <button id="pathfinder-run-btn" class="btn btn-sm btn-cyan">
+                  Calcular Ruta
+                </button>
+              </div>
+              <div id="path-result-box" class="path-result-box">
+                Seleccioná una obra de destino para buscar la ruta intelectual más corta.
+              </div>
+            </div>
+
+            <!-- Pestañas de Navegación -->
+            <nav class="tabs-nav">
+              <button class="tab-btn active-tab" data-tab="tab-frbr">Jerarquía FRBR</button>
+              <button class="tab-btn" data-tab="tab-precursors">Precursores Citados</button>
+              <button class="tab-btn" data-tab="tab-descendants">Descendientes / Recepción</button>
+              <button class="tab-btn" data-tab="tab-markdown">Markdown Dossier</button>
+              <button class="tab-btn" data-tab="tab-json">JSON Schema</button>
+            </nav>
+
+            <!-- Pestaña 1: FRBR Tree -->
+            <div id="tab-frbr" class="tab-pane active-pane">
+              <div class="frbr-tree" id="frbr-tree-container">
+                <!-- Inyectado por JS -->
+              </div>
+            </div>
+
+            <!-- Pestaña 2: Precursores -->
+            <div id="tab-precursors" class="tab-pane">
+              <div class="genealogy-list" id="precursors-list-container">
+                <!-- Inyectado por JS -->
+              </div>
+            </div>
+
+            <!-- Pestaña 3: Descendientes -->
+            <div id="tab-descendants" class="tab-pane">
+              <div class="genealogy-list" id="descendants-list-container">
+                <!-- Inyectado por JS -->
+              </div>
+            </div>
+
+            <!-- Pestaña 4: Markdown Dossier -->
+            <div id="tab-markdown" class="tab-pane">
+              <pre class="dossier-code-box" id="markdown-dossier-code"></pre>
+            </div>
+
+            <!-- Pestaña 5: JSON Schema -->
+            <div id="tab-json" class="tab-pane">
+              <pre class="dossier-code-box" id="json-dossier-code"></pre>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Simulador de Ingesta Arqueológica -->
+    <section class="simulator-section">
+      <div class="panel-header" style="background: transparent; border: none; padding: 0 0 1rem 0;">
+        <h2 class="panel-title">
+          <span>🧪 Simulador de Ingesta — Registrar Nueva Obra y Vínculo</span>
+        </h2>
+      </div>
+
+      <form id="simulator-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label" for="sim-title-input">Título del Trabajo Científico *</label>
+            <input type="text" id="sim-title-input" class="form-input" placeholder="Ej. Über formal unentscheidbare Sätze der Principia Mathematica" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="sim-author-input">Autor Principal</label>
+            <input type="text" id="sim-author-input" class="form-input" placeholder="Ej. Kurt Gödel">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="sim-year-input">Año de Publicación</label>
+            <input type="number" id="sim-year-input" class="form-input" placeholder="1931">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="sim-subject-input">Disciplina / Asunto</label>
+            <input type="text" id="sim-subject-input" class="form-input" placeholder="Lógica Matemática / Metamatemática">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="sim-type-select">Tipo de Obra</label>
+            <select id="sim-type-select" class="form-select">
+              <option value="paper" selected>Paper / Artículo de Revista</option>
+              <option value="book">Libro / Monografía</option>
+              <option value="proceedings">Actas / Proceedings</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="sim-cite-target-select">Obra Citada (Vínculo en el Grafo)</label>
+            <select id="sim-cite-target-select" class="form-select">
+              <!-- Inyectado por JS -->
+            </select>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: flex-end;">
+          <button type="submit" class="btn btn-primary">
+            🔗 Integrar Trabajo a la Red Arqueológica
+          </button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>PAPER ARCHAEOLOGY</strong> • Arqueología de Artículos Científicos • v2.0.0
+      </div>
+      <div style="font-family: var(--font-serif); font-style: italic; color: var(--text-muted);">
+        «Papers do not remain where they were published: they are translated, reprinted, cited, forgotten, and rediscovered.»
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data/archaeology-corpus.js"></script>
+  <script src="js/archaeology-engine.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

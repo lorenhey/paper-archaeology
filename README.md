@@ -2,6 +2,11 @@
 
 > *Tracing the lives of scientific papers across editions, languages, citations, and time.*
 
+[![Deploy GitHub Pages](https://github.com/lorenhey/paper-archaeology/actions/workflows/deploy.yml/badge.svg)](https://github.com/lorenhey/paper-archaeology/actions/workflows/deploy.yml)
+[![Live Workbench](https://img.shields.io/badge/Live_Workbench-GitHub_Pages-cyan.svg)](https://lorenhey.github.io/paper-archaeology/)
+
+**Interactive Web Observatory & Genealogy Workbench:** [https://lorenhey.github.io/paper-archaeology/](https://lorenhey.github.io/paper-archaeology/)
+
 Papers do not remain where they were published. They are translated, reprinted, cited, misquoted, forgotten, and occasionally rediscovered. A scientific paper has a publication date. Its history usually does not.
 
 **PAPER ARCHAEOLOGY** is an open-source tool for conducting bibliographic and intellectual archaeology. It moves beyond standard citation metrics (like Google Scholar) to reconstruct the actual historical trajectory of a scientific work. 
